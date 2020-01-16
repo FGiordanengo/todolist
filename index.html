@@ -5,20 +5,32 @@
 	<meta name="viewport" content="width=device-width">
 	<title>TODOLIST</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
+
 	<header>
 		<h1>TODOLIST</h1>
-		<div class="number-container"><span class="number">3</span></div>
+		<div class="number-container"><span class="number"></span></div>
 	</header>
-	<section>
+
+	<section class="list-item">
 		<ul class="list">
-			
 		</ul>
 	</section>
+
+	<section class="new-item">
+		<h2>Nouveau Produit:</h2>
+		<form class="form">
+			<input class="item-label" type="text" name="item">
+			<input class="submit" type="submit" name="validate" value="OK">
+		</form>
+	</section>
+
 	<footer>
-		
+		<p>&copy; 2020</p>
 	</footer>
+	
 	<script type="text/javascript" src="function.js"></script>
 	<script type="text/javascript" src="index.js"></script>
 </body>
